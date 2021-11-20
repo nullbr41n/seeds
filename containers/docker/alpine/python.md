@@ -6,11 +6,14 @@ Q: How to install package on alpine docker image with package manager apk?
 ## install packages to 
 `apk add gcc musl-dev python3-dev libffi-dev openssl-dev cargo`
 
+`apk add busybox-extras`
+
+`busybox-extras telnet <host> <portt>`
+
 
 Q: How to install python3 pip / pip3 in Alpine Linux Docker image?
 ## Install pip2
 `apk add py3-pip`
-
 
 Q: How to pip3 install packages?
 ## install required packages
