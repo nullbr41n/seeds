@@ -6,4 +6,4 @@
 
 #### Display `subject`, `issuer`, `dates` for given certificate or chains.
 
-`awk -v cmd='openssl x509  -subject -issuer -dates -noout' '/BEGIN/{close(cmd)};{print | cmd}'` < MY_Cert_chain.crt
+`awk -v cmd='openssl x509  -subject -issuer -dates -noout' '/BEGIN/{close(cmd)};{print | cmd}' < MY_Cert_chain.crt`
